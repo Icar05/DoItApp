@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">DoITApplication</string>
+
+
+    <string name="send">Send</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="action_sign_in_short">Sing in</string>
+
+    <string name="make_photo">Make photo</string>
+    <string name="cancel">Cancel</string>
+    <string name="choose_from_gallery">Choose from galery</string>
+    <string name="add_ava_title">Add your avatar</string>
+    <string name="deny_external_storage_message">Сan not add new ava without permission external storage!</string>
+    <string name="deny_camera_message">Сan not add new ava without permission camera!</string>
+    <string name="no_data">No data</string>
+
+    <string name="make_gif">Make gif</string>
+    <string name="add_image">Add image</string>
+    <string name="save_image">Save image</string>
+
+    <string name="description">Description</string>
+    <string name="hashtag">#Tag</string>
+
+    <string name="empty_image">You must choose image!</string>
+    <string name="empty_fields">You must fill all fields and chose avatar (touch by defolt image)</string>
+
+    <string name="complete_registration">Registration completed successfully!</string>
+
+    <string name="error_ava">Error with loading avatar.Try again</string>
+
+    <string name="allow">Allow</string>
+    <string name="close">Close</string>
+    <string name="internet_error">Internet error</string>
+    <string name="internet_error_message">Need connection to network. Press allow to open network settings</string>
+
+    <string name="permission">Permissions</string>
+    <string name="permissions_error_text">Application need location permissions. Press allow to open network settings </string>
+    <string name="permissions_error_camera">Application need camera permissions. Press allow to open network settings </string>
+
+    <string name="provider">Gps provider disabled</string>
+    <string name="provider_error_text">You should turn on Gps provider. Press allow to open network settings </string>\
+    <string name="to_few_images">Too few pictures. You need at least 5</string>
+
+    <string name="singup">sing up</string>
+    <string name="ok">Ok</string>
+    <string name="error">Error</string>
+
+    <string name="can_not_get_photo">Camera does not retrun photo. You can choose photo from galery</string>
+
+</resources>

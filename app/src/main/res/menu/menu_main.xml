@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.gmail.ipinguin_linuxoid.pizzacomposer.MainActivity">
+
+
+    <item
+        android:icon="@drawable/ic_done_white_24dp"
+        android:id="@+id/save_image"
+        android:orderInCategory="100"
+        android:title="@string/save_image"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_play_arrow_white_24dp"
+        android:id="@+id/make_gif"
+        android:orderInCategory="100"
+        android:title="@string/make_gif"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:icon="@drawable/ic_add_white_24dp"
+        android:id="@+id/add_image"
+        android:orderInCategory="100"
+        android:title="@string/add_image"
+        app:showAsAction="ifRoom" />
+
+
+</menu>

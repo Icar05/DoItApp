@@ -1,0 +1,12 @@
+*.iml
+
+.idea
+.DS_Store
+/build
+/captures
+
+.gradle
+
+
+!/settings.gradle
+/gradle/

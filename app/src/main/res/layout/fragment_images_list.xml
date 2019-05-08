@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/ll_root"
+    tools:context=".MainActivity">
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_conent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+           <LinearLayout
+               android:id="@+id/ll_emtpy"
+               android:gravity="center"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <TextView
+                   android:textColor="@color/colorPrimaryDark"
+                   android:text="@string/no_data"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   />
+
+           </LinearLayout>
+
+
+
+        <GridView
+            android:horizontalSpacing="16dp"
+            android:verticalSpacing="16dp"
+            android:padding="16dp"
+            android:clipToPadding="false"
+            android:numColumns="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
